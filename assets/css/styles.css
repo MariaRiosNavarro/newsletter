@@ -1,3 +1,18 @@
+@font-face {
+  font-family: Cormo;
+  src: url("../fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf");
+}
+
+@font-face {
+  font-family: CormoB;
+  src: url("../fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf");
+}
+
+@font-face {
+  font-family: CormoL;
+  src: url("../fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf");
+}
+
 *,
 *::before,
 *::after {
@@ -6,5 +21,47 @@
   padding: 0;
 }
 
-/* test */
-/* test */
+html {
+  font-size: 62.5%;
+  font-family: Cormo, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #e9e9e0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+.title {
+  color: #333;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+nav {
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  border: 4px solid black;
+}
+
+.nav-list {
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 0.3rem 0;
+}
