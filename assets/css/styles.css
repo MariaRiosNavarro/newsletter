@@ -24,6 +24,7 @@
 html {
   font-size: 62.5%;
   font-family: Cormo, Arial, Helvetica, sans-serif;
+  color: black;
 }
 
 body {
@@ -76,7 +77,8 @@ nav {
 
 .nav-list {
   display: flex;
-  border: 4px solid black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 .nav-list {
@@ -180,17 +182,69 @@ aside {
 /* img */
 
 .ikea-img {
-  width: 14vw;
+  width: 15vw;
   height: auto;
 }
 
-.foto {
+.kitchen-img {
+  padding: 0 1rem;
+  width: 39.5vw;
+  /* height: 64.5vh; */
 }
 
-.kitchen-img {
-  /* width: 39.5vw; */
-  padding: 0 1rem;
-  /* object-fit: contain; */
-  width: 469.002px;
-  height: 586.25px;
+/* aside */
+
+aside {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.aside-title {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 2.5rem;
+  font-family: CormoB, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.aside-section {
+  height: 28%;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-section:first-of-type H3 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: CormoB, Arial, Helvetica, sans-serif;
+}
+
+.aside-section:nth-of-type(2) {
+  padding: 0 2.8rem;
+  text-align: center;
+}
+
+.aside-section:nth-of-type(2) H3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.aside-section:nth-of-type(2) p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.aside-section:nth-of-type(2) a {
+  color: #737b80;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.aside-section:nth-of-type(3) {
+  padding: 2.5rem;
 }
